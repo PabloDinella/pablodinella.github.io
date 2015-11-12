@@ -9,20 +9,8 @@ relative_permalinks: true
 # Setup
 title:            Todo dia algo novo
 tagline:          'A Jekyll theme'
-description:      ':bulb: Um simples diário sobre o aprendizado de cada dia'
+description:      'Um simples diário sobre o aprendizado de cada dia'
 url:              http://pablodinella.github.io/
 baseurl:          /
 
-author:
-  name:           'Mark Otto'
-  url:            https://twitter.com/mdo
-
 paginate:         5
-
-# Custom vars
-version:          2.1.0
-
-github:
-  repo:           https://github.com/poole/hyde
-gems:
-  - jemoji
