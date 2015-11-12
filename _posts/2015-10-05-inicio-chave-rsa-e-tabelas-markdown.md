@@ -21,6 +21,6 @@ Pra iniciar já esse projetinho,
 
 ## Foi isso que aprendi hoje:
 - a chave rsa pública fica em `~/.ssh/id_rsa.pub`
-- tabelas no markdown são feitas com pipelines e traços (`| e ---`), e destaque de código é com ` `` `
+- tabelas no markdown são feitas com pipelines e traços (`| e ---`), e destaque de código é com ``` `` ```
 
 Foi bem simples, mas por hoje é só :)
