@@ -34,8 +34,8 @@ E algumas coisas que quero fazer aqui no blog ainda:
 
 Por enquanto é isso, aliás, já tem três posts que eu tinha escrito antes:
 
-[Be MEAN #2: Mais comandos do MongoDB]({% post_url 2015-11-10-Be-MEAN-Aula-2 %})
-[Primeira aula do Be MEAN!]({% post_url 2015-11-09-Be-MEAN %})
-[Início, chave rsa pública e tabelas no markdown]({% post_url 2015-10-05-inicio-chave-rsa-e-tabelas-markdown %})
+- [Be MEAN #2: Mais comandos do MongoDB]({% post_url 2015-11-10-Be-MEAN-Aula-2 %})
+- [Primeira aula do Be MEAN!]({% post_url 2015-11-09-Be-MEAN %})
+- [Início, chave rsa pública e tabelas no markdown]({% post_url 2015-10-05-inicio-chave-rsa-e-tabelas-markdown %})
 
 Por enquanto é isso ;)
