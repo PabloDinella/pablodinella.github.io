@@ -1,7 +1,9 @@
 ---
 layout: page
-title: About
+title: Sobre
 ---
+
+Post que fiz sobre este blog: 
 
 Se quiser falar comigo:
 
