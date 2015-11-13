@@ -7,8 +7,8 @@ permalink:        pretty
 relative_permalinks: true
 
 # Setup
-title:            Todo dia algo novo
-tagline:          'A Jekyll theme'
+title:            Todo Dia Algo Novo
+tagline:          'Diário de um aprendiz'
 description:      'Um simples diário sobre o aprendizado de cada dia'
 url:              http://pablodinella.github.io/
 baseurl:          /
