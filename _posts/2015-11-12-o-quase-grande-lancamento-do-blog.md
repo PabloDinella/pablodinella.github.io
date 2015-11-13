@@ -38,4 +38,4 @@ Por enquanto é isso, aliás, já tem três posts que eu tinha escrito antes:
 - [Primeira aula do Be MEAN!]({% post_url 2015-11-09-Be-MEAN %})
 - [Início, chave rsa pública e tabelas no markdown]({% post_url 2015-10-05-inicio-chave-rsa-e-tabelas-markdown %})
 
-Por enquanto é isso ;)
+Até logo ;)
