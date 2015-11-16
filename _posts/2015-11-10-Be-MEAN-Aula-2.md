@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "Be MEAN #2: Mais comandos do MongoDB"
+title: "Be MEAN (MongoDB): Mais comandos do MongoDB"
 date: 2015-11-10 20:00:00
 description: "O que eu aprendi na primeira aula do Be MEAN"
 tags:
-- mongodb
+- MongoDB
 categories:
-- Be MEAN
+- Be MEAN (MongoDB)
 ---
 
 Segunda aula de MongoDB e a coisa está ficando séria! Vou até fazer uma lista de comandos:
