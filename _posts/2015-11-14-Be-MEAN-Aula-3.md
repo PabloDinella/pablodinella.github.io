@@ -45,7 +45,7 @@ Daí passamos o parâmetro pro find assim:
 
 `db.collection.find(query)`
 
-O parâmetro fields define quais campos queremos, para usá-lo devemos dizer o nome do campo junto com o valor **1**, se quisermos que a busca retorne este campo, ou **0** caso não queiramos este campo.
+O parâmetro fields define quais campos queremos. Para usá-lo devemos dizer o nome do campo junto com o valor **1**, se quisermos que a busca retorne este campo, ou **0** caso não queiramos este campo.
 
 Por exemplo, caso queiramos fazer uma busca que retorne os campos Nome e Idade de um objeto:
 
