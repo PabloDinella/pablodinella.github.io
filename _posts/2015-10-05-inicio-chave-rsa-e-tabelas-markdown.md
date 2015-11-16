@@ -7,6 +7,9 @@ tags:
 - ssh
 - markdown
 categories:
+- blog
+categories-humanreadable:
+- Blog
 ---
 
 Pois é, esse é o início de uma ideia que eu tive e decidi experimentar. A probabilidade de eu desistir no meio do caminho e isso não dar certo é alta, mas como eu reprovei em estatística e probabilidade na faculdade eu posso estar errado :P

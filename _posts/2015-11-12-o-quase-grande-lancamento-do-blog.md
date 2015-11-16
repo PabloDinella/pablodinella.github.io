@@ -5,6 +5,9 @@ date: 2015-11-12 22:24:26
 description: "Sobre o começo do Todo Dia Algo Novo"
 tags:
 categories:
+- blog
+categories-humanreadable:
+- Blog
 ---
 
 Sabe quando você acha que algo é fácil e acaba perdendo algumas horas pra fazer? Pois é, foi assim comigo pra colocar esse blog no ar. Tem muitas coisas que quero fazer ainda pra deixar esse blog *supimpa*, mas como o que importa mesmo é o conteúdo, vou ajeitando as outras coisas com o tempo :)

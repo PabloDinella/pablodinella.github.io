@@ -6,6 +6,8 @@ description: "Resumo da terceira aula do Be MEAN, sobre UUD, buscas com o find()
 tags:
 - MongoDB
 categories:
+- be-mean-mongodb
+categories-humanreadable:
 - Be MEAN (MongoDB)
 ---
 

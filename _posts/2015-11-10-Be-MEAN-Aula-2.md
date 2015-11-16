@@ -6,6 +6,8 @@ description: "O que eu aprendi na primeira aula do Be MEAN"
 tags:
 - MongoDB
 categories:
+- be-mean-mongodb
+categories-humanreadable:
 - Be MEAN (MongoDB)
 ---
 
