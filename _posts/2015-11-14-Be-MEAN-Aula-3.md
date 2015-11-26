@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Be MEAN (MongoDB): ID, find(), e operadores"
-date: 2015-11-14 01:00:00
+date: 2015-11-14 01:00:00 -03:00
 description: "Resumo da terceira aula do Be MEAN, sobre UUD, buscas com o find() e operadores"
 tags:
 - MongoDB
@@ -56,13 +56,13 @@ Por exemplo, caso queiramos fazer uma busca que retorne os campos Nome e Idade d
 
 O retorno seria algo como:
 
-```
+~~~
 {
   "_id": ObjectId("564220f0613f89ac53a7b5d0"),
   "Nome": "Fulano",
   "Idade": "25"
 }
-```
+~~~
 
 Perceba que o \_id foi retornado mesmo sem ter sido especificado. É porque ele é o único campo que é retornado sempre. Caso não queiramos que ele seja retornado, basta especificá-lo com o valor 0:
 
@@ -92,7 +92,7 @@ Pode parecer meio difícil de entender, mas é só ler com calma e/ou mais de um
 
 O JSON desse último exemplo, numa forma tabulada ficaria assim:
 
-```
+~~~
 {
   "name": "bob",
   "$nor": [
@@ -104,16 +104,16 @@ O JSON desse último exemplo, numa forma tabulada ficaria assim:
     }
   ]
 }
-```
+~~~
 
 Exemplo com o operador **$and**:
 
-```
+~~~
 var query1 = { a: 1 };
 var query2 = { b: { $gt: 5 } } ;
 
 db.collection.find( { $and: [query1, query2] } )
-```
+~~~
 
 Nesse caso somente são retornados resultados que satisfaçam as duas condições `query1` e `query2`.
 
