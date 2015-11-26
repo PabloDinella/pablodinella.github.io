@@ -28,7 +28,7 @@ Temos que usar `findOne()` pois o `find()` não retorna o objeto em si, mas sim 
 
 Então `p` terá o seguinte conteúdo:
 
-```
+~~~
 {
   "_id": ObjectId("5650c5c8c36927f637e6ce10"),
   "name": "Pikachu",
@@ -37,7 +37,7 @@ Então `p` terá o seguinte conteúdo:
   "attack": 55,
   "height": 0.4
 }
-```
+~~~
 
 Agora podemos alterar um de seus valores, como por exemplo: `p.attack = 50`.
 
@@ -56,7 +56,7 @@ Com esta sintaxe: `db.collection.update(query, update, options)`.
 Podemos então criar uma query `var query = {"_id": ObjectId("5652574334d59f7ade6bf57e")}`
 que no meu caso retornará este documento:
 
-```
+~~~
 {
   "_id": ObjectId("5652574334d59f7ade6bf57e"),
   "name": "Testemon",
@@ -65,24 +65,24 @@ que no meu caso retornará este documento:
   "height": 2.1,
   "description": "Pokemon de teste"
 }
-```
+~~~
 
 e um *mod* (parâmetro `update`):
 
-```
+~~~
 var mod = {description: "Teste de modificação"}
-```
+~~~
 
 Então passamos os parâmetros ao comando `update()`: `db.pokemons.update(query, mod)`.
 
 Executamos o comando, e ao buscar o documento no banco com `db.pokemons.find(query)` para ver como ficou temos este retorno:
 
-```
+~~~
 {
   "_id": ObjectId("5652574334d59f7ade6bf57e"),
   "description": "Teste de modificação"
 }
-```
+~~~
 
 Opa! O `update()` não só modificou a `description` do nosso documento como removeu os outros campos. Isso acontece porque passamos o parâmetro de *update* sem usar um **operador de modificação**.
 
