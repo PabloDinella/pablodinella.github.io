@@ -19,7 +19,7 @@ Estou atrasado com as aulas do Be MEAN, eu sei, mas assim que passar essa semana
 
 ## Stackedit.io
 
-Quero relatar que passei a utilizar mais o [stackedit.io](https://stackedit.io/), editor markdown online. Eu já conhecia há um tempo, mas só passei a utilizá-lo agora, depois que [mudei o processador de markdown do blog para o kramdown]({% 2015-11-26-Buscas-mongo-ionic-kramdown %}).
+Quero relatar que passei a utilizar mais o [stackedit.io](https://stackedit.io/), editor markdown online. Eu já conhecia há um tempo, mas só passei a utilizá-lo agora, depois que [mudei o processador de markdown do blog para o kramdown]({% post_url 2015-11-26-Buscas-mongo-ionic-kramdown %}).
 
 Editar markdown no stackedit é bem gostoso, mas tem alguns probleminhas também, como não destacar links que referenciam a um endereço um tanto diferente do comum:
 
