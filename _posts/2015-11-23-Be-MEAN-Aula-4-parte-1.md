@@ -109,6 +109,16 @@ $unset
 $inc
 : incrementa o valor do campo com a quantidade especificada
 : para decrementar, usar valor negativo
+: uso: `{ $inc: { campo: 1 } }`
+
+Exemplo:
+
+~~~
+var mod = {$inc: { attack: 1 }}
+db.pokemons.update(query, mod)
+~~~
+
+O código acima vai apenas incrementar do campo `attack` do nosso registro em 1, e manter todos os outros campos intactos.
 
 A lista segue, mas para não deixar o post muito longo vou parar por aqui, que é até onde foi abordado [na aula](https://www.youtube.com/watch?v=ONzJsNbv15U). Mas o restante [está na documentação](https://docs.mongodb.org/manual/reference/operator/update/#fields) :)
 
