@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Be MEAN (MongoDB): save(), update() e operadores de modificação"
-date: 2015-11-23 00:20:00
+date: 2015-11-23 00:20:00 -03:00
 description: "Resumo da quarta aula do Be MEAN, sobre modificação de documentos"
 tags:
 - MongoDB
