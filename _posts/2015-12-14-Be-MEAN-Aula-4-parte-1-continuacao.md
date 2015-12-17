@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Be MEAN (MongoDB): Operadores de Array no comando update()"
-date: 2015-12-14 20:42:00
+date: 2015-12-14 20:42:00 -02:00
 description: "Continuação do resumo da quarta aula do Be MEAN, sobre modificação de documentos"
 tags:
 - MongoDB
