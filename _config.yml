@@ -1,18 +1,69 @@
-# Dependencies
-markdown:         kramdown
-highlighter:      pygments
-
-# Permalinks
-permalink:        /:year/:month/:day/:title/
-relative_permalinks: true
-
-# Setup
 title:            Todo Dia Algo Novo
-tagline:          'Diário de um aprendiz'
-description:      'Um simples diário sobre o aprendizado de cada dia'
-url:              http://pablodinella.github.io/
-baseurl:          /
+description:      Todo dia é dia de aprender algo novo!
+disqus_shortname: PabloRDinella
+reading_time:     true
+words_per_minute: 200
+# Your site's domain goes here (eg: //mmistakes.github.io, http://mademistakes.com, etc)
+# When testing locally leave blank or use http://localhost:4000
+url:
 
-paginate:         5
+# Owner/author information
+owner:
+  name:           Pablo Rocha Dinella
+  avatar:         avatar.jpg
+  bio:            'Estudante de tecnologia, fascinado por web, "nascido em cima do computador".'
+  email:          pablo.dinella@gmail.com
+  # Social networking links used in footer. Update and remove as you like.
+  twitter:        pablordinella
+  facebook:       pablordinella
+  github:         PabloDinella
+  stackexchange:
+  linkedin:
+  instagram:      pablordinella
+  flickr:
+  tumblr:
+  # google plus id, include the '+', eg +mmistakes
+  google_plus:    +yourid
 
-timezone: 				America/Sao_Paulo
+# Background image to be tiled on all pages
+background:
+
+# Analytics and webmaster tools stuff goes here
+google_analytics:
+google_verify:
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify:
+
+# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone:    America/Sao_Paulo
+future:      true
+highlighter: pygments
+markdown:    kramdown
+gems:
+  - jekyll-sitemap
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# https://github.com/mojombo/jekyll/wiki/Permalinks
+permalink:   /:year/:month/:day/:title/
+
+# Amount of post to show on home page
+paginate: 5
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  use_coderay: true
+
+  coderay:
+    coderay_line_numbers: nil
+    coderay_line_numbers_start: 1
+    coderay_tab_width: 4
+    coderay_bold_every: 10
+    coderay_css: class
+
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Capfile", "config", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
