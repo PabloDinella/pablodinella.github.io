@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Novo Tema!
+title: Novo Visual do Blog!
 modified:
 categories: [blog]
 description:
