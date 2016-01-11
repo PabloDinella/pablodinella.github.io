@@ -23,11 +23,11 @@ Quero relatar que passei a utilizar mais o [stackedit.io](https://stackedit.io/)
 
 Editar markdown no stackedit é bem gostoso, mas tem alguns probleminhas também, como não destacar links que referenciam a um endereço um tanto diferente do comum:
 
-![stackedit não destaca links não convencionais]({{ site.url }}/assets/post-images/stackedit.jpg)
+![stackedit não destaca links não convencionais]({{ site.url }}/images/posts/stackedit.jpg)
 
 E também não é possível (ou não sei como) *escapar* trechos de código que não quero formatar como bloco de código:
 
-![como escapar código no markdown?]({{ site.url }}/assets/post-images/stackedit2.jpg)
+![como escapar código no markdown?]({{ site.url }}/images/posts/stackedit2.jpg)
 
 PS: já tentei "\\" e não deu certo.
 
